@@ -1,0 +1,13 @@
+[package]
+org = "dell"
+name = "iwb461_debuggers_main"
+version = "0.1.0"
+distribution = "2201.10.0"
+
+[build-options]
+observabilityIncluded = true
+
+[dependencies]
+"ballerinax/mysql" = { version = "1.13.1" }
+"ballerina/sql" = { version = "1.13.0" }
+
